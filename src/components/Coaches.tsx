@@ -1,6 +1,6 @@
 import React from 'react';
 import { Award, Target, Users, Brain } from 'lucide-react';
-
+import certificateImage from '../assets/certificate.jpeg';
 const Coaches = () => {
   const coaches = [
     {
@@ -8,7 +8,7 @@ const Coaches = () => {
       title: "Head Coach",
       certifications: ["ECB Certified", "Core Coach Level 2"],
       image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-      certificateImage: "https://raw.githubusercontent.com/1st4sport/ecb-core-coach/main/certificate.png",
+      certificateImage: certificateImage,
       qualifications: [
         "Trained and Certified by ECB (English Cricket Board)",
         "Certification Level: CORE COACH (1st4sport Level 2)",
