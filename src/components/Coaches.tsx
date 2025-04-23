@@ -19,28 +19,28 @@ const Coaches = () => {
     }
   ];
 
-  const expertise = [
-    {
-      icon: <Target className="h-6 w-6 text-purple-600" />,
-      title: "Technical Excellence",
-      description: "Specialized coaching in batting, bowling, and fielding techniques"
-    },
-    {
-      icon: <Users className="h-6 w-6 text-purple-600" />,
-      title: "Player Development",
-      description: "Personalized training programs for all skill levels"
-    },
-    {
-      icon: <Brain className="h-6 w-6 text-purple-600" />,
-      title: "Modern Methodology",
-      description: "360-degree teaching approach with emerging technologies"
-    },
-    {
-      icon: <Award className="h-6 w-6 text-purple-600" />,
-      title: "Professional Certification",
-      description: "ECB certified with international coaching experience"
-    }
-  ];
+  // const expertise = [
+  //   {
+  //     icon: <Target className="h-6 w-6 text-purple-600" />,
+  //     title: "Technical Excellence",
+  //     description: "Specialized coaching in batting, bowling, and fielding techniques"
+  //   },
+  //   {
+  //     icon: <Users className="h-6 w-6 text-purple-600" />,
+  //     title: "Player Development",
+  //     description: "Personalized training programs for all skill levels"
+  //   },
+  //   {
+  //     icon: <Brain className="h-6 w-6 text-purple-600" />,
+  //     title: "Modern Methodology",
+  //     description: "360-degree teaching approach with emerging technologies"
+  //   },
+  //   {
+  //     icon: <Award className="h-6 w-6 text-purple-600" />,
+  //     title: "Professional Certification",
+  //     description: "ECB certified with international coaching experience"
+  //   }
+  // ];
 
   return (
     <section className="py-20 bg-white">
@@ -104,7 +104,7 @@ const Coaches = () => {
           </div>
         ))}
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
           {expertise.map((item, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg border border-purple-100">
               <div className="mb-4">{item.icon}</div>
@@ -112,7 +112,7 @@ const Coaches = () => {
               <p className="text-gray-600">{item.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter, MapPin, Mail, Phone } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   const quickLinks = [
@@ -28,7 +29,7 @@ const Footer = () => {
           {/* Academy Info */}
           <div>
             <div className="flex items-center mb-4">
-              <img src="/vite.svg" alt="PCAP Logo" className="h-8 w-8 mr-2" />
+              <img src={logo} alt="PCAP Logo" className="h-8 w-8 mr-2" />
               <div>
                 <h3 className="font-bold text-purple-900">Professional Cricket</h3>
                 <p className="text-sm text-purple-700">Academy of Poland</p>
